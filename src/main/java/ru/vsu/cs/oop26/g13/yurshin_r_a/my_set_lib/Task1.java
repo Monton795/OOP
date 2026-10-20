@@ -12,10 +12,10 @@ public class Task1 {
         }
     }
 
-    static class DoublyList {
+    static class DoublyList { // двусвяз список
         Node head, tail;
 
-        void add(int value) {
+        void add(int value) { // добавление элемента в конец
             Node n = new Node(value);
             if (head == null) {
                 head = tail = n;
@@ -26,7 +26,7 @@ public class Task1 {
             }
         }
 
-        void remove(int value) {
+        void remove(int value) { // удаление элемент по значению
             Node n = head;
             while (n != null) {
                 if (n.value == value) {
@@ -51,7 +51,7 @@ public class Task1 {
         }
     }
 
-    static class CircularList {
+    static class CircularList { // циклич список
         Node tail;
 
         void add(int value) {
@@ -106,8 +106,8 @@ public class Task1 {
         CircularList b = new CircularList();
 
         for (int i : new int[]{10, 20, 30}) {
-            a.add(i);
-            b.add(i);
+            a.add(i); // двусвяз
+            b.add(i); // циклич
         }
 
         System.out.println("Двусвязный список:");
