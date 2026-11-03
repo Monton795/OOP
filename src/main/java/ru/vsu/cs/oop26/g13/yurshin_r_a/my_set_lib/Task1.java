@@ -1,4 +1,4 @@
-
+cd D:\untitled1\OOP-upload
 package ru.vsu.cs.oop26.g13.yurshin_r_a.my_set_lib;
 
 public class Task1 {
