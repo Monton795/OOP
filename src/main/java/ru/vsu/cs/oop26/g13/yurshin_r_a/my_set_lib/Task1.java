@@ -1,5 +1,4 @@
-$path = "D:\untitled1\OOP-upload\src\main\java\ru\vsu\cs\oop26\g13\yurshin_r_a\my_set_lib"
-Copy-Item "D:\untitled1\MySetLib\src\main\java\ru\vsu\cs\oop26\g13\yurshin_r_a\my_set_lib\Task1.java" "$path\Task1.java" -Force
+
 package ru.vsu.cs.oop26.g13.yurshin_r_a.my_set_lib;
 
 public class Task1 {
